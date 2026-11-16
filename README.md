@@ -432,7 +432,7 @@ Press **Ctrl+C** in the controller terminal. Its shutdown handler sends several 
 
 [![Simulation recording — São Paulo, RViz and lap dashboard](simulation_overview.png)](demo/saopaulo_simulation.webm)
 
-**[▶ Open the São Paulo simulation recording](demo/saopaulo_simulation.webm)**
+**[▶ Open the São Paulo simulation recording](https://github.com/thangtran07072004-blip/F1TENTH-Sao-Paulo-FTG/releases/download/v1.0/saopaulo_simulation.webm)**
 
 The recording demonstrates the São Paulo map in RViz, the running vehicle, colored trajectory, current speed, lap timing, lap history, and the terminal-based `follow_gap_controller` dashboard.
 
