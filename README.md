@@ -15,7 +15,7 @@
 
 A ROS 2 autonomous racing controller that interprets 2D LiDAR data to find navigable gaps, chooses a stable driving target, and publishes steering and speed commands for the F1TENTH vehicle. The supplied controller integrates **adaptive lookahead**, **Pure-Pursuit-style steering**, **speed-aware cornering**, **directional lap counting**, and an **emergency LiDAR watchdog**.
 
-![São Paulo simulation with RViz and live telemetry](assets/simulation_overview.png)
+![São Paulo simulation with RViz and live telemetry](simulation_overview.png)
 
 > **Implementation note:** This repository version uses Follow-the-Gap with a geometric safety bubble. It does **not** implement an independent adjacent-beam Disparity Extender routine; the name and algorithm description here follow the actual `follow_gap.py` source.
 
@@ -430,7 +430,7 @@ Press **Ctrl+C** in the controller terminal. Its shutdown handler sends several 
 
 ### Demonstration video
 
-[![Simulation recording — São Paulo, RViz and lap dashboard](assets/simulation_overview.png)](demo/saopaulo_simulation.webm)
+[![Simulation recording — São Paulo, RViz and lap dashboard](simulation_overview.png)](demo/saopaulo_simulation.webm)
 
 **[▶ Open the São Paulo simulation recording](demo/saopaulo_simulation.webm)**
 
