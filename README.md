@@ -68,7 +68,7 @@ Implement a **LiDAR-based reactive racing controller** capable of navigating the
 
 ### Circuit map used in the simulation
 
-![São Paulo circuit in RViz](assets/saopaulo_rviz_map.png)
+![São Paulo circuit in RViz](saopaulo_rviz_map.png)
 
 *Figure 1. São Paulo map displayed in RViz during the submitted simulation; the colored segment is the vehicle's displayed local trajectory.*
 
@@ -256,7 +256,7 @@ The crossing position, heading, and time are **linearly interpolated between adj
 
 ### Dashboard and RViz visualization
 
-![Lap counter and timing dashboard from recorded simulation](assets/lap_dashboard.png)
+![Lap counter and timing dashboard from recorded simulation](lap_dashboard.png)
 
 *Figure 2. Dashboard and lap history from a captured frame of the supplied simulation video.*
 
