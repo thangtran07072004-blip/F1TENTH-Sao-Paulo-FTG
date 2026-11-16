@@ -147,7 +147,7 @@ Replace `NaN`, nonpositive, or measurements below `0.10 m` with a blocked readin
 Identify the nearest nonzero processed beam at distance $d_{\min}$. With vehicle width $w=0.30\,\mathrm{m}$ and safety margin $m=0.15\,\mathrm{m}$, exclude an angular half-width of
 
 $$
-\theta_{\mathrm{bubble}}=\operatorname{atan2}\!\left(\frac{w}{2}+m,\max(d_{\min},0.05)\right).
+\theta_{\mathrm{bubble}}=\mathrm{atan2}\!\left(\frac{w}{2}+m,\max(d_{\min},0.05)\right).
 $$
 
 For LiDAR angular increment $\Delta\theta$,
@@ -185,7 +185,7 @@ The first term favors continuity with the previous target; the second favors a f
 The lookahead distance depends on the previously commanded speed:
 
 $$
-L=\operatorname{clip}(0.80+k_vv_{\mathrm{prev}},\ 0.90,\ L_{\max}).
+L=\mathrm{clip}(0.80+k_vv_{\mathrm{prev}},\ 0.90,\ L_{\max}).
 $$
 
 Limit the target distance to the selected LiDAR range:
@@ -198,7 +198,7 @@ Then compute target curvature and Ackermann steering:
 
 $$
 \kappa=\frac{2\sin\theta_t}{d_t},\qquad
-\delta=\operatorname{clip}\left[\tan^{-1}(0.3302\,\kappa),\,-0.42,\,+0.42\right].
+\delta=\mathrm{clip}\left[\tan^{-1}(0.3302\,\kappa),\,-0.42,\,+0.42\right].
 $$
 
 Here $k_v$ is the lookahead speed gain, $\theta_t$ is the selected target angle, $\kappa$ is commanded path curvature in $\mathrm{m^{-1}}$, and $\delta$ is steering angle in radians.
