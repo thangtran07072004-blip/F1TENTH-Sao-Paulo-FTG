@@ -7,7 +7,7 @@
 ![Circuit](https://img.shields.io/badge/TRACK-S%C3%83O_PAULO-259B65)
 ![Controller](https://img.shields.io/badge/CONTROL-REACTIVE_FTG-155E75)
 
-- **Author:** *[Add your name]*
+- **Author:** Tran Quang Minh Thang
 - **Course:** Autonomous Vehicles — II PAO 2026
 - **Assessment:** First Midterm Project (Part 1) — Reactive Controllers Competition
 - **Circuit:** **São Paulo**
